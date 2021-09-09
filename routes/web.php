@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','MigrationController@index');
+Route::get('/','MigrationController@index')->name('home');
 
 Route::get('/show','MigrationController@showAll')->name('show');
