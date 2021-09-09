@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','MigrationController@index');
+
+Route::get('/show','MigrationController@showAll')->name('show');
